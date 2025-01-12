@@ -109,7 +109,7 @@ export default function NavBarComponent() {
           className="flex items-center space-x-3 rtl:space-x-reverse"
         >
           <img
-            src="/src/assets/logo/Star.png"
+            src="/logo/Star.png"
             className="h-8 dark:img-white"
             alt="Logo"
           />
