@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
-import project from "/project.svg";
+import menu from "/project.svg";
+
+// import project from "/logo/udemy.png";
 
 const slideInFromLeft = {
   hidden: { opacity: 0, x: -100 },
@@ -39,11 +41,12 @@ export default function ProjectPage() {
         </div>
         <div className="flex justify-center mt-32">
           <img
-            src={project}
+            src={menu}
             alt=""
             className="w-[150px] relative transform scale-150  "
           />
         </div>
+
 
         <motion.h1
           variants={slideInFromRight}

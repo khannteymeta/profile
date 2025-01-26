@@ -16,6 +16,7 @@ export default function ContactPage() {
   return (
     <>
       <div className="">
+
         <motion.h1
           className="font-bold  flex justify-center align-top text-4xl  text-[#FFB600]  "
           variants={screenLeft}
@@ -37,15 +38,31 @@ export default function ContactPage() {
             About Me
           </h1>
         </motion.h1>
-
         <div className="flex justify-center">
           <h2 className="text-sm text-center w-[300px]  mt-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-            sapiente, adipisci eum quibusdam necessitatibus ullam in quae odit
-            laudantium ipsum corporis perferendis numquam provident, quam ut ad
-            alias. Nostrum, magni!{" "}
+          Hi, I’m <b> META</b> a UX/UI designer and front-end developer, building responsive and user-friendly for web applications. <br /> My portfolio showcases a range of projects. 
+          
+              Currently, I’m focused on UX Research and am open to new opportunities where I can contribute to impactful projects. 
           </h2>
         </div>
+
+
+        <motion.h1
+          variants={slideInFromLeft}
+          initial="hidden"
+          animate="visible"
+        >
+          <h1 className="text-2xl text-center mt-5 text-[#0E302F]  font-thin">
+            Education
+          </h1>
+        </motion.h1>
+        <div className="flex justify-center">
+          <h2 className="text-sm text-center w-[300px]  mt-4">
+          Nowaday I'm Study At Norton Univerity
+          </h2>
+        </div>
+
+
 
         <motion.h1
           variants={slideInFromRight}
@@ -56,7 +73,6 @@ export default function ContactPage() {
             Content Creator
           </h1>
         </motion.h1>
-
         <div className="flex justify-center  mt-5">
           <a href="https://www.facebook.com/profile.php?id=61559632608002">
             <img
@@ -74,16 +90,7 @@ export default function ContactPage() {
           </h2>
         </div>
 
-        <motion.h1
-          variants={slideInFromLeft}
-          initial="hidden"
-          animate="visible"
-        >
-          <h1 className="text-2xl text-center mt-5 text-[#0E302F]  font-thin">
-            Education
-          </h1>
-        </motion.h1>
-        <div></div>
+        
       </div>
     </>
   );
