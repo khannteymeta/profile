@@ -1,3 +1,4 @@
+
 import HeroSection from "../../components/cart/HeroSection";
 // import SlideImageComponent from "../../components/cart/SlideImageComponent";
 // import image from "D:/course-website/course/src/assets/logo/spring.png";
@@ -14,6 +15,7 @@ export default function Homepage() {
         <div className="mt-10 md:mt-0 max-[400px]:mt-5 max-[320px]:mt-3 px-4">
           <HeroSection />
         </div>
+        
 
         {/* Right Section */}
         <div className="mt-5 md:mt-0 px-4">
@@ -33,8 +35,8 @@ export default function Homepage() {
       </div>
 
       {/* Background Section */}
-      <div className="w-full mt-5 md:mt-10 bg-[#0E302F] text-[#0E302F] text-center py-1">
-        Space
+      <div className="w-full mt-5 md:mt-10 bg-[#0E302F] text-sm text-[#909e9e] text-center py-2">
+      Front-End Developer | UX/UI Designer 
       </div>
     </>
   );

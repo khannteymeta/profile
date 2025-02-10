@@ -5,6 +5,8 @@ import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";
 import { motion } from "framer-motion";
 
+import ButtonComponent from "../ButtonComponent";
+
 const HeroSection = () => {
   const { t } = useTranslation();
   const [loading, setLoading] = useState(true);
@@ -69,10 +71,10 @@ const HeroSection = () => {
               </motion.div>
             </>
           )}
+          <ButtonComponent />
         </div>
       </div>
     </SkeletonTheme>
   );
 };
-
 export default HeroSection;

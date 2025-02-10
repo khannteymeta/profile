@@ -16,7 +16,6 @@ export default function ContactPage() {
   return (
     <>
       <div className="">
-
         <motion.h1
           className="font-bold  flex justify-center align-top text-4xl  text-[#FFB600]  "
           variants={screenLeft}
@@ -40,12 +39,12 @@ export default function ContactPage() {
         </motion.h1>
         <div className="flex justify-center">
           <h2 className="text-sm text-center w-[300px]  mt-4">
-          Hi, I’m <b> META</b> a UX/UI designer and front-end developer, building responsive and user-friendly for web applications. <br /> My portfolio showcases a range of projects. 
-          
-              Currently, I’m focused on UX Research and am open to new opportunities where I can contribute to impactful projects. 
+            Hi, I’m Meta, a front-end develope and UX/UI designer. I’m
+            passionate about creating seamless, user-centered digital
+            experiences. My goal is to build products that not only look great
+            but also solve real-world problems.
           </h2>
         </div>
-
 
         <motion.h1
           variants={slideInFromLeft}
@@ -58,11 +57,11 @@ export default function ContactPage() {
         </motion.h1>
         <div className="flex justify-center">
           <h2 className="text-sm text-center w-[300px]  mt-4">
-          Nowaday I'm Study At Norton Univerity
+            I’m currently in my third year at Norton University, I have taken
+            specialized courses at CSTAD and ANT. Learning and
+            Practical courses helps me build strong, real-world projects.
           </h2>
         </div>
-
-
 
         <motion.h1
           variants={slideInFromRight}
@@ -85,12 +84,9 @@ export default function ContactPage() {
 
         <div className="flex justify-center">
           <h2 className="text-sm text-center w-[300px]  mt-4">
-            I`m currently start with it because I want to explore and make
-            confidance infront of Camera and Ordience. Here is my new page
+          I’ve recently started my journey as a content creator because I want to explore new ideas and build confidence.  Check out my new page to follow along with my growth and creative projects!
           </h2>
         </div>
-
-        
       </div>
     </>
   );
